@@ -49,7 +49,7 @@ public class RadService {
 			} else if (temp.getFieldId().equals("autor")) {
 				r.setAutor(korisnikRepository.findKorisnikByUsername(temp.getFieldValue()));
 			} else if (temp.getFieldId().equals("putanjaFajla")) {
-				r.setPutanja("C:\\Users\\uvrnu\\Desktop\\" + temp.getFieldValue());
+				r.setPutanja("C:\\Users\\vukbo\\Downloads\\" + temp.getFieldValue());
 			}
 
 		}
@@ -69,7 +69,7 @@ public class RadService {
 	}
 
 	public void izmeniRad(Rad rad, String naziv) {
-		rad.setPutanja("C:\\Users\\uvrnu\\Desktop\\" + naziv);
+		rad.setPutanja("C:\\Users\\vukbo\\Downloads\\" + naziv);
 		radRepository.save(rad);
 	}
 }
