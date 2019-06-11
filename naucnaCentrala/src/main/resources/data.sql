@@ -15,7 +15,7 @@ insert into Korisnik (ime, prezime, drzava, grad, email, username, password, tip
 insert into Korisnik (ime, prezime, drzava, grad, email, username, password, tip_korisnika) values ("Recenzent4", "Recenzent4", "Srbija", "Novi Sad", "rencenzent4@mailinator.com", "recenzent4", "pass", 2);
 
 --urednici id-9,10,11
---prvi sledeci je glavni urednik u svim casopisima (cisto nako)
+--prvi sledeci je glavni urednik u svim casopisima
 insert into Korisnik (ime, prezime, drzava, grad, email, username, password, tip_korisnika) values ("Urednik1", "Urednik1", "Srbija", "Novi Sad", "urendik1@mailinator.com", "urednik1", "pass", 1);
 insert into Korisnik (ime, prezime, drzava, grad, email, username, password, tip_korisnika) values ("Urednik2", "Urednik2", "Srbija", "Novi Sad", "urendik2@mailinator.com", "urednik2", "pass", 1);
 insert into Korisnik (ime, prezime, drzava, grad, email, username, password, tip_korisnika) values ("Urednik3", "Urednik3", "Srbija", "Novi Sad", "urendik3@mailinator.com", "urednik3", "pass", 1);
@@ -38,7 +38,3 @@ insert into recenzenti_casopisa(casopis_id, recenzent_id) values (1,5);
 insert into recenzenti_casopisa(casopis_id, recenzent_id) values (1,6);
 insert into recenzenti_casopisa(casopis_id, recenzent_id) values (1,7);
 insert into recenzenti_casopisa(casopis_id, recenzent_id) values (1,8);
-
---insert into Rad(id, naziv, apstrakt, naucna_oblast, status_rada, putanja, casopis_id, autor_id) values(1, 'Rad1','Naucni rad', 0, 1, 'C:\\Users\\uvrnu\\Desktop\\rad1.pdf',1,1);
---insert into Rad(id, naziv, apstrakt, naucna_oblast, status_rada, putanja, casopis_id, autor_id) values(2, 'Rad1','Naucni rad', 0, 1, 'C:\\Users\\uvrnu\\Desktop\\rad1.pdf',1,1);
---insert into Rad(id, naziv, apstrakt, naucna_oblast, status_rada, putanja, casopis_id, autor_id) values(3, 'Rad1','Naucni rad', 0, 1, 'C:\\Users\\uvrnu\\Desktop\\rad1.pdf',1,1);
